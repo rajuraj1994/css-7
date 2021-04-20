@@ -1,0 +1,12 @@
+.container{
+    width:100%;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    height: 300px;
+    width:300px;
+    background-color: orange;
+    margin: 10px;
+}
