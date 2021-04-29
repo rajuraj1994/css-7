@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    width:100%;
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav{
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.main{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+.left{
+    width:60%;
+    /* background-color: yellowgreen; */
+    height: 900px;
+}
+.right{
+    width:40%;
+    /* background-color: turquoise; */
+    height: 900px;
+    padding-left: 10px;
+}
+.firstleft{
+    height: 440px;
+    background-color: slateblue;
+
+}
+.secondleft{
+    height: 440px;
+    background-color: steelblue;
+    margin-top: 20px;
+}
+.firstright{
+    height: 290px;
+    background-color: teal;
+
+}
+.secondright{
+    height: 290px;
+    background-color: tomato;
+    margin-top: 15px;
+}
+.thirdright{
+    height: 290px;
+    background-color: teal;
+    margin-top: 15px;
+}
+.footer{
+    height: 50px;
+    background-color: dodgerblue;
+    color:white;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
